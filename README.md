@@ -22,3 +22,21 @@ git clone https://github.com/AlexMayPool/gost-docs-automation.git
 cd gost-docs-automation
 pip install -r requirements.txt
 python src/generate.py
+```
+## Технологии
+
+- Python 3
+- pandas — обработка и группировка данных
+- openpyxl — запись Excel‑файлов с несколькими листами
+
+## Входные данные
+
+Файл data/example_input.csv — реалистичные «грязные» данные, как на реальных заводах (пустые строки, разный регистр, неполные записи, лишние символы).
+
+## Выход
+
+Файл result/vedomost_result.xlsx — готовая ведомость по ГОСТ с листами по разделам и итоговым листом.
+
+## Контакты
+
+Александр — Python-разработчик (автоматизация техдокументации) Telegram:@AlexMayPool 
