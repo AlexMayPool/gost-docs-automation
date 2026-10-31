@@ -19,3 +19,14 @@ git clone https://github.com/<AlexMayPool>/gost-docs-automation.git
 cd gost-docs-automation
 pip install -r requirements.txt
 python src/generate.py
+
+## Технологии
+- Python 3
+- pandas
+- openpyxl
+
+## Входные данные
+Файл `data/example_input.csv` — реалистичные «грязные» данные, как на реальных заводах.
+
+## Выход
+Файл `result/vedomost_result.xlsx` — готовая ведомость с группировкой по разделам и итоговым листом.
